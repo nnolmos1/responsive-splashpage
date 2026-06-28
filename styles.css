@@ -16,6 +16,12 @@ h1 {
     font-size: 2.5rem;
     font-weight: 400;
     text-shadow: 0 2px #816fca;
+    transition: transform 0.3s ease; 
+
+}
+
+h1:hover {
+    transform: scale(1.1);
 }
 
 h2 {
